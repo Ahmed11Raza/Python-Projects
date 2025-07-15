@@ -1,0 +1,15 @@
+[project]
+name = "financial-calculator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires_python = ">=3.12"
+dependencies = [
+    "financial>=1.0",
+    "numpy>=2.3.1",
+    "numpy-financial>=1.0.0",
+    "streamlit>=1.46.1",
+]
+
+[tool.uv.workspace]
+members = ["list"]
